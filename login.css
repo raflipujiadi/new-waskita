@@ -1,0 +1,648 @@
+body {
+  position: fixed;
+  float: left;
+  width: 100%;
+  margin: 0% auto;
+}
+.text {
+  font-weight: 800;
+  margin-left: 0.1em;
+  text-align: left;
+  height: 100%;
+}
+.container {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  margin: 0% auto;
+}
+label {
+  width: 100%;
+  position: relative;
+  float: left;
+  text-align: center;
+}
+.menu {
+  margin: 0.3em 0px 0.3em 0px;
+  width: 100%;
+  position: relative;
+  float: left;
+  height: 3em;
+}
+.menu-icon {
+  width: 20%;
+  position: relative;
+  float: left;
+  height: 100%;
+}
+.menu-title {
+  width: 80%;
+  position: relative;
+  float: left;
+  height: 100%;
+}
+.menu-title > .text {
+  margin: 1rem auto;
+}
+.img-menu-icon {
+  margin: 1rem auto;
+}
+/* Login */
+.Login {
+  position: relative;
+  float: left;
+  width: 45%;
+  margin: 6em auto 30em 26%;
+  padding: 5.8rem;
+  font-family: Podkova;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 50%;
+
+  color: #000000;
+  background-color: #c4c4c4;
+  border-radius: 4mm;
+}
+.Login > form {
+  margin: 1em auto 1em;
+  position: relative;
+  float: left;
+}
+.form-title {
+  width: auto;
+  height: 2em;
+  line-height: 2em;
+  position: relative;
+  float: initial;
+}
+.form-title > label {
+  color: red;
+  line-height: 2em;
+}
+.form-group {
+  width: auto;
+  height: 3em;
+  line-height: 3em;
+  position: relative;
+  float: initial;
+}
+.form-group > small,
+input {
+  line-height: 2em;
+}
+small {
+  font-size: initial;
+}
+.form-btn {
+  width: auto;
+  height: 2em;
+  line-height: 2em;
+  position: relative;
+  float: inherit;
+}
+.form-btn > button {
+  background-color: black;
+  color: #ffffff;
+  line-height: 2em;
+}
+.form-control,
+label,
+small {
+  position: relative;
+  float: left;
+  line-height: 100%;
+  width: 100%;
+}
+input {
+  margin: auto;
+}
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+.bottom-footer {
+  float: inherit;
+  margin: 1em auto 1em auto;
+  width: 100%;
+  position: relative;
+  text-align: center;
+  font-size: x-large;
+}
+.Vector {
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+
+  background: #000000;
+}
+
+.Setting {
+  position: relative;
+  float: left;
+  font-family: Podkova;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 24px;
+}
+.identical-to-box-height {
+  color: #000000;
+
+  /* Dasboard */
+
+  position: absolute;
+  width: 142px;
+  height: 27px;
+  left: 54px;
+  top: 232px;
+}
+
+.Dasboard {
+  position: absolute;
+  width: 107px;
+  height: 27px;
+  left: 89px;
+  top: 232px;
+
+  font-family: Podkova;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 27px;
+}
+/* identical to box height */
+.box-height {
+  color: #000000;
+}
+
+/* dashboard */
+.dashboard {
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  left: 54px;
+  top: 238px;
+}
+
+/* Vector */
+.Vector {
+  position: absolute;
+  left: 0%;
+  right: 54.17%;
+  top: 0%;
+  bottom: 66.67%;
+
+  background: #000000;
+}
+
+/* Vector */
+.Vector {
+  position: absolute;
+  left: 0%;
+  right: 54.17%;
+  top: 41.67%;
+  bottom: 0%;
+
+  background: #000000;
+}
+
+.task {
+  position: absolute;
+  width: 100.42px;
+  height: 27px;
+  left: 57px;
+  top: 426px;
+}
+
+.To-Do {
+  position: absolute;
+  width: 67px;
+  height: 27px;
+  left: 90.42px;
+  top: 426px;
+
+  font-family: Podkova;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 27px;
+}
+/* Set a style for all buttons */
+button {
+  background-color: #04aa6d;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+.task {
+  position: absolute;
+  left: 3.96%;
+  right: 94.87%;
+  top: 41.99%;
+  bottom: 56.25%;
+}
+
+.Vector {
+  position: absolute;
+  left: 0%;
+  right: 21.92%;
+  top: 0%;
+  bottom: 6.45%;
+
+  background: #000000;
+}
+
+.jodow {
+  position: absolute;
+  width: 101.42px;
+  height: 27px;
+  left: 55px;
+  top: 523px;
+}
+
+.Jo-Do {
+  position: absolute;
+  width: 66px;
+  height: 27px;
+  left: 90.42px;
+  top: 523px;
+
+  font-family: Podkova;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 27px;
+}
+
+.Vector {
+  position: absolute;
+  left: 0.06%;
+  right: 84.52%;
+  top: 66.99%;
+  bottom: 17.59%;
+
+  background: #000000;
+}
+
+.Vector {
+  position: absolute;
+  left: 0%;
+  right: 75.75%;
+  top: 75.75%;
+  bottom: 0%;
+
+  background: #000000;
+}
+
+.Vector {
+  position: absolute;
+  left: 17.59%;
+  right: 66.98%;
+  top: 84.52%;
+  bottom: 0.06%;
+
+  background: #000000;
+}
+
+.Waskita {
+  position: absolute;
+  width: 87px;
+  height: 27px;
+  left: 17px;
+  top: 19px;
+
+  font-family: Podkova;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 27px;
+}
+
+.Side-Right {
+  position: absolute;
+  width: 143px;
+  height: 51.07px;
+  left: 1190px;
+  top: 28px;
+}
+
+.Profile {
+  position: absolute;
+  width: 143px;
+  height: 51.07px;
+  left: 1190px;
+  top: 28px;
+}
+
+.Rectangle2 {
+  position: absolute;
+  width: 143px;
+  height: 51.07px;
+  left: 1190px;
+  top: 28px;
+
+  background: #c4c4c4;
+  border-radius: 10px;
+}
+
+.Ellipse1 {
+  position: absolute;
+  width: auto;
+  height: 32.04px;
+  left: 1205.32px;
+  top: 37.01px;
+
+  background: #ffffff;
+}
+
+/* Main */
+/* .Main {
+  top: center;
+} */
+.main-left {
+  margin: 3em auto 1mm auto;
+  margin: 3em auto 1mm auto;
+  width: 100%;
+  text-align: center;
+  font-size: x-large;
+}
+
+.Rectangle7 {
+  position: absolute;
+  width: 420px;
+  height: 454.44px;
+  left: 510px;
+  top: 285px;
+
+  background: #c4c4c4;
+  border-radius: 10px;
+}
+
+.Email {
+  position: absolute;
+  width: 53.32px;
+  height: 20.51px;
+  left: 580px;
+  top: 434px;
+
+  font-family: Podkova;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 20px;
+
+  color: #000000;
+}
+
+.Password {
+  position: absolute;
+  width: 84.49px;
+  height: 20.51px;
+  left: 580px;
+  top: 531.72px;
+
+  font-family: Podkova;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 20px;
+
+  color: #000000;
+}
+
+.Rectangle8 {
+  position: absolute;
+  width: 279px;
+  height: 48px;
+  left: 580px;
+  top: 460px;
+
+  background: #e5e5e5;
+  border-radius: 5px;
+}
+
+.Rectangle9 {
+  position: absolute;
+  width: 279px;
+  height: 48px;
+  left: 580px;
+  top: 558px;
+
+  background: #e5e5e5;
+  border-radius: 5px;
+}
+
+.Rectangle10 {
+  position: absolute;
+  width: 224.77px;
+  height: 39.38px;
+  left: 607.62px;
+  top: 651.14px;
+
+  background: #000000;
+  border-radius: 5px;
+}
+
+.Contact {
+  position: absolute;
+  width: 154px;
+  height: 30px;
+  left: 608px;
+  top: 700px;
+
+  font-family: Podkova;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 14px;
+
+  color: #000000;
+}
+@media (min-width: 768px), (min-height: 800px) {
+  body {
+    background-color: #000000;
+  }
+  .Side-Left {
+    position: relative;
+    float: left;
+    width: 20%;
+    height: 100%;
+    background-color: #c4c4c4;
+    margin: 0% auto;
+    /* margin: 0% 0.2em auto; */
+  }
+  .side-left-title {
+    margin: 3.2rem auto 4rem 0.3rem;
+    position: relative;
+  }
+  .menu {
+    margin: 0.3em 0px 0.3em 0px;
+    width: 100%;
+    position: relative;
+    float: left;
+    height: 3em;
+  }
+  .menu-icon {
+    width: 20%;
+    position: relative;
+    float: left;
+    height: 100%;
+  }
+  .menu-title {
+    width: 80%;
+    position: relative;
+    float: left;
+    height: 100%;
+  }
+  .Main {
+    position: relative;
+    float: left;
+    margin: 0% auto;
+    width: 80%;
+    height: 100%;
+    background-color: #ffffff;
+  }
+  .main-left {
+    margin: 3em auto 1mm auto;
+    float: inherit;
+  }
+  .bottom-footer {
+    margin: 1em auto 1em auto;
+    float: inherit;
+  }
+  .Login {
+    position: relative;
+    float: left;
+    width: 45%;
+    margin: 6em auto 30em 26%;
+    padding: 5.8rem;
+  }
+}
+@media (max-width: 768px) {
+  body {
+    background-color: #ffffff;
+    margin: 0% auto;
+  }
+  .Side-Left {
+    position: fixed;
+    float: left;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    margin: 0% 0.2em auto;
+  }
+  .side-left-title {
+    margin: 3.2rem auto 4rem 0.3rem;
+    position: relative;
+  }
+  .menu {
+    margin: 0.3em 0px 0.3em 0px;
+    width: 100%;
+    position: relative;
+    float: left;
+    height: 5em;
+  }
+  .menu-icon {
+    width: 20%;
+    position: relative;
+    float: left;
+    height: 100%;
+  }
+  .menu-title {
+    width: 80%;
+    position: relative;
+    float: left;
+    height: 100%;
+  }
+  .Main {
+    position: relative;
+    float: left;
+    margin: 0% 0.2em auto;
+    width: 80%;
+    height: 100%;
+    background-color: #ffffff;
+  }
+  .Login {
+    position: fixed;
+    float: left;
+    width: 100%;
+    z-index: 2;
+    margin: 1em auto 1em auto;
+    padding: 0px;
+  }
+  .Login > form {
+    margin: 0;
+  }
+  .main-left {
+    margin: 3em auto 1mm auto;
+    float: inherit;
+  }
+}
+
+@media (max-height: 768px) {
+  body {
+    background-color: #ffffff;
+    margin: 0% auto;
+  }
+  .Side-Left {
+    position: fixed;
+    float: left;
+    width: 100%;
+    height: 100%;
+    background-color: #c4c4c4;
+    margin: 0% 0.2em auto;
+  }
+  .side-left-title {
+    margin: 3.2rem auto 4rem 0.3rem;
+    position: relative;
+  }
+  .menu {
+    margin: 0.3em 0px 0.3em 0px;
+    width: 100%;
+    position: relative;
+    float: left;
+    height: 5em;
+  }
+  .menu-icon {
+    width: 20%;
+    position: relative;
+    float: left;
+    height: 100%;
+  }
+  .menu-title {
+    width: 80%;
+    position: relative;
+    float: left;
+    height: 100%;
+  }
+  .Main {
+    position: relative;
+    float: left;
+    width: 100%;
+    height: 100%;
+  }
+  .main-left {
+    margin: 3em auto 1mm auto;
+    float: inherit;
+  }
+  .Login {
+    position: fixed;
+    float: left;
+    height: 100%;
+    z-index: 1;
+  }
+}
